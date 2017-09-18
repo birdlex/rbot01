@@ -1,12 +1,12 @@
 GIT
   remote: https://github.com/ohler55/oj.git
-  revision: af1db4e69147e4ce7e0cf978fc1fdf5d3b386c6d
+  revision: 5c120ff787da944292dd16e56c08252c7d7a8550
   specs:
-    oj (2.18.5)
+    oj (3.3.5)
 
 GIT
   remote: https://github.com/seuros/capistrano-puma.git
-  revision: a58acd82ec02fc1e510889222c21ec2379b25659
+  revision: 150f5293ea8203f9ee9a70da1625d9f9600b7880
   specs:
     capistrano3-puma (3.1.1)
       capistrano (~> 3.7)
@@ -65,8 +65,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.5.1)
-      public_suffix (~> 2.0, >= 2.0.2)
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
     airbrussh (1.3.0)
       sshkit (>= 1.6.1, != 1.7.0)
     akami (1.3.1)
@@ -78,7 +78,7 @@ GEM
       addressable (>= 2.3.1)
       extlib (>= 0.9.15)
       multi_json (>= 1.0.0)
-    autoprefixer-rails (7.1.2.3)
+    autoprefixer-rails (7.1.4)
       execjs
     barby (0.6.5)
     bcrypt (3.1.11)
@@ -94,7 +94,7 @@ GEM
       native-package-installer (>= 1.0.3)
       pkg-config (>= 1.2.2)
     cancancan (1.17.0)
-    capistrano (3.9.0)
+    capistrano (3.9.1)
       airbrussh (>= 1.0.0)
       i18n
       rake (>= 10.0.0)
@@ -129,7 +129,7 @@ GEM
     climate_control (0.2.0)
     cocaine (0.5.8)
       climate_control (>= 0.0.3, < 1.0)
-    coderay (1.1.1)
+    coderay (1.1.2)
     coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0)
@@ -139,7 +139,7 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
     connection_pool (2.2.1)
-    curb (0.9.3)
+    curb (0.9.4)
     dalli (2.7.6)
     debug_inspector (0.0.3)
     devise (4.3.0)
@@ -154,7 +154,7 @@ GEM
     dropzonejs-rails (0.8.1)
       rails (> 3.1)
     erubis (2.7.0)
-    excon (0.58.0)
+    excon (0.59.0)
     execjs (2.7.0)
     extlib (0.9.16)
     factory_girl (4.7.0)
@@ -171,7 +171,7 @@ GEM
       builder
       excon (~> 0.58)
       formatador (~> 0.2)
-    fog-google (0.5.3)
+    fog-google (0.5.5)
       fog-core
       fog-json
       fog-xml
@@ -184,7 +184,7 @@ GEM
     font-awesome-rails (4.6.3.1)
       railties (>= 3.2, < 5.1)
     formatador (0.2.5)
-    friendly_id (5.2.1)
+    friendly_id (5.2.2)
       activerecord (>= 4.0.0)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
@@ -281,15 +281,15 @@ GEM
     money-open-exchange-rates (0.7.0)
       monetize (~> 1.4)
       money (~> 6.7)
-    multi_json (1.12.1)
+    multi_json (1.12.2)
     multi_xml (0.6.0)
     multipart-post (2.0.0)
     native-package-installer (1.0.4)
     nested_form (0.3.2)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
-    net-ssh (4.1.0)
-    newrelic_rpm (4.3.0.335)
+    net-ssh (4.2.0)
+    newrelic_rpm (4.4.0.336)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
     nori (2.6.0)
@@ -313,11 +313,11 @@ GEM
     parser (2.4.0.0)
       ast (~> 2.2)
     pg (0.20.0)
-    phony (2.15.47)
+    phony (2.15.48)
     phony_rails (0.14.6)
       activesupport (>= 3.0)
       phony (> 2.15)
-    pkg-config (1.2.3)
+    pkg-config (1.2.7)
     polyamorous (1.3.1)
       activerecord (>= 3.0)
     powerpack (0.1.1)
@@ -325,7 +325,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    public_suffix (2.0.5)
+    public_suffix (3.0.0)
     puma (3.9.1)
     rack (1.6.8)
     rack-protection (1.5.3)
@@ -361,7 +361,7 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rainbow (2.2.2)
       rake
-    rake (12.0.0)
+    rake (12.1.0)
     ransack (1.8.3)
       actionpack (>= 3.0)
       activerecord (>= 3.0)
@@ -397,7 +397,7 @@ GEM
       railties (>= 4.2.0, < 5.3)
     retriable (1.4.1)
     rolify (5.1.0)
-    rollbar (2.15.0)
+    rollbar (2.15.2)
       multi_json
     roo (2.5.1)
       nokogiri (~> 1)
@@ -414,7 +414,7 @@ GEM
     rspec-mocks (3.6.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.6.0)
-    rspec-rails (3.6.0)
+    rspec-rails (3.6.1)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       railties (>= 3.0)
@@ -429,7 +429,7 @@ GEM
       rainbow (>= 1.99.1, < 3.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (~> 1.0, >= 1.0.1)
-    ruby-progressbar (1.8.1)
+    ruby-progressbar (1.8.3)
     rubyzip (1.2.1)
     sass (3.5.1)
       sass-listen (~> 4.0.0)
@@ -442,7 +442,7 @@ GEM
       sprockets (>= 2.8, < 4.0)
       sprockets-rails (>= 2.0, < 4.0)
       tilt (>= 1.1, < 3)
-    savon (2.11.1)
+    savon (2.11.2)
       akami (~> 1.2)
       builder (>= 2.1.2)
       gyoku (~> 1.2)
@@ -470,7 +470,7 @@ GEM
       docile (~> 1.1.0)
       json (>= 1.8, < 3)
       simplecov-html (~> 0.10.0)
-    simplecov-html (0.10.1)
+    simplecov-html (0.10.2)
     simplecov-rcov (0.2.3)
       simplecov (>= 0.4.1)
     sinatra (1.4.8)
@@ -490,7 +490,7 @@ GEM
     sprockets (3.7.1)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
-    sprockets-rails (3.2.0)
+    sprockets-rails (3.2.1)
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
@@ -498,7 +498,7 @@ GEM
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
     temple (0.8.0)
-    thor (0.19.4)
+    thor (0.20.0)
     thread_safe (0.3.6)
     tilt (2.0.8)
     turbolinks (2.5.3)
@@ -614,9 +614,9 @@ DEPENDENCIES
   web-console
   whenever (~> 0.9.7)
 
+
 RUBY VERSION
    ruby 2.3.3p222
 
 BUNDLED WITH
    1.14.6
-
