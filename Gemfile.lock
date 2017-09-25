@@ -272,7 +272,7 @@ GEM
     mime-types-data (3.2016.0521)
     mimemagic (0.3.2)
     mini_magick (4.5.1)
-    mini_portile2 (2.2.0)
+    mini_portile2 (2.3.0)
     minitest (5.10.3)
     monetize (1.7.0)
       money (~> 6.9)
@@ -290,8 +290,8 @@ GEM
       net-ssh (>= 2.6.5)
     net-ssh (4.1.0)
     newrelic_rpm (4.3.0.335)
-    nokogiri (1.8.0)
-      mini_portile2 (~> 2.2.0)
+    nokogiri (1.8.1)
+      mini_portile2 (~> 2.3.0)
     nori (2.6.0)
     oauth2 (1.4.0)
       faraday (>= 0.8, < 0.13)
@@ -577,7 +577,7 @@ DEPENDENCIES
   money-open-exchange-rates
   nested_form (~> 0.3.2)
   newrelic_rpm
-  nokogiri (>= 1.7.1)
+  nokogiri (>= 1.8.1)
   oj!
   oj_mimic_json
   omniauth-facebook (~> 4.0.0)
@@ -616,7 +616,5 @@ DEPENDENCIES
 
 RUBY VERSION
    ruby 2.3.3p222
-
 BUNDLED WITH
    1.14.6
-

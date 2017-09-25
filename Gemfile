@@ -227,5 +227,5 @@ group :test do
   gem "simplecov", '~> 0.12.0'
   gem "simplecov-rcov", '~> 0.2.3'
 end
-gem 'nokogiri', '>= 1.7.1'
+gem 'nokogiri', '>= 1.8.1'
 
